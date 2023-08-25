@@ -1,0 +1,4 @@
+Jako składnik wirtualnego krajobrazu wybrałam kwiatek. Kwiatek składa się z 3 oddzielnych segmentów: łodygi, kulki
+oraz umieszczonych dookoła kulki płatków. Górna część kwiatka porusza się sama na podstawie timera. Poruszając myszką
+w lewo i prawo jednocześnie obracamy obiekt, a także przybliżamy i oddalamy się od obiektu (lewo- przybliżenie, prawo-
+oddalenie). Poruszając myszką góra-dół obracamy obiekt w pionie.

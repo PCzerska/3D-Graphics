@@ -1,0 +1,31 @@
+object Form1: TForm1
+  Left = 925
+  Height = 292
+  Top = 407
+  Width = 292
+  Caption = 'Form1'
+  ClientHeight = 292
+  ClientWidth = 292
+  Constraints.MinHeight = 292
+  Constraints.MinWidth = 292
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnResize = FormResize
+  LCLVersion = '2.2.6.0'
+  object OpenGLControl1: TOpenGLControl
+    Left = 20
+    Height = 188
+    Top = 20
+    Width = 254
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoResizeViewport = True
+    OnMouseMove = OpenGLControl1MouseMove
+    OnPaint = OpenGLControl1Paint
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 32
+    Top = 232
+  end
+end
